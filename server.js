@@ -32,7 +32,7 @@ hbs.registerHelper('screamIt',(text)=>{
 
 app.get('/',(request,response)=>{
    response.render('home.hbs',{
-       homeMessage:'Welcome to the HomePage',
+       pageTitle:'Welcome to the HomePage',
    });
 });
 
